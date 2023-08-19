@@ -32,12 +32,13 @@ html,body{
 
 #navbtn{
   border: 1px solid black;
-  width: 5vw;
+  width: 7vw;
   font-size: 1vw;
   padding: 5px;
   border-radius: 3px;
   text-align: center;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 #navbox{
@@ -87,6 +88,11 @@ flex-direction: column;
   height: 30px;
   border: 1px solid black;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
 }
 #cmid{
   padding: 5px;
@@ -103,6 +109,7 @@ flex-direction: column;
   height: 100%;
   background-color: black;
   display: flex;
+  flex-wrap: wrap;
 }
 
 #section{
